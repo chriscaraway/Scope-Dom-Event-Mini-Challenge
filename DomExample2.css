@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	text-align:center;
+
+}
+
+h1 {
+	margin: 0;
+	padding: 80px 0 20px;
+	font-size: 100px
+
+}
