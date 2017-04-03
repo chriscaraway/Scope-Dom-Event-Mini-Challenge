@@ -14,7 +14,7 @@ formEl.addEventListener("submit", function(event) {
 		alert("Correct!");
 	}
 	else {
-		alert("Nope.");
+		alert("Nope. Try again.");
 		event.preventDefault();
 	}
 });
