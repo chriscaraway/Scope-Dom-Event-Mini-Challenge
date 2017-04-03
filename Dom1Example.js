@@ -1,13 +1,15 @@
-var button = document.getElementbyId("Click-1");
-var button = document.getElementbyId("Click-2");
+var button1 = document.getElementById("Click1");
+var button2 = document.getElementById("Click2");
 
-button.addEventListener("Click-1", function(event) {
+console.log(button1, button2)
+
+button1.addEventListener("click", function(event) {
 	alert("I'm Right!");
 	console.log("I'm Right!");
 	console.log(event);
 });
 
-button.addEventListener("Click-2", function(event) {
+button2.addEventListener("click", function(event) {
 	alert("No, I'm Right!");
 	console.log("No I'm Right!");
 	console.log(event);
