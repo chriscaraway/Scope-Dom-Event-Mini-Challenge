@@ -4,8 +4,8 @@ var desiredPassword = "12345678";
 
 // Grab our elements from the dom and assign them to variables
 
-var formEl = document.getElementbyId("password-form");
-var nameEl = document.getElementbyId("password-input");
+var formEl= document.getElementById("password-form");
+var nameEl= document.getElementById("password-input");
 
 // Event
 
@@ -14,7 +14,7 @@ formEl.addEventListener("submit", function(event) {
 		alert("Correct!");
 	}
 	else {
-		alert("Incorrect");
+		alert("Nope.");
 		event.preventDefault();
 	}
 });
